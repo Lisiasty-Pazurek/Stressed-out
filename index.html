@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1280 height=720></canvas>
+      <canvas id="unity-canvas" width=960 height=600></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/Breathe proto.loader.js";
+      var loaderUrl = buildUrl + "/StressedOut.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Breathe proto.data",
-        frameworkUrl: buildUrl + "/Breathe proto.framework.js",
-        codeUrl: buildUrl + "/Breathe proto.wasm",
+        dataUrl: buildUrl + "/StressedOut.data",
+        frameworkUrl: buildUrl + "/StressedOut.framework.js",
+        codeUrl: buildUrl + "/StressedOut.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Aemaze",
         productName: "Breathe1",
